@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>City Search</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/teleport-autocomplete.min.css">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<script src="https://use.fontawesome.com/20d3a6ef4d.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+	
+	<div class="wrapper">
+		<div class="headerContainer">
+			<h1>Search City</h1>
+			<div class="navContainer">
+				<div class="LHS">
+					<section class="intro">
+						<p>Input City.</p>
+					</section>
+					<form>
+							<input type="text" class='city-input tp-ac__input' placeholder="City, Province, Country">
+							<i class="fa fa-search search-icon" aria-hidden="true"></i>
+					</form>
+				</div>
+				<div class="RHS">
+					<a href="http://twitter.com/home?status=Going%20to%20move%2C%20travel%2C%20or%20work%20abroad?%20Use%20City%20Search%20https://goo.gl/15kcq5%20made%20by%20@Natalie_N_B%20using%20@TeleportInc%20API%2C%20@GoogleMapsAPI" target="_blank">
+						<i class="fa fa-twitter" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</div>
+		<section class="summaryWithMap">
+			<div class="summary"></div>
+			<!-- <div id="map"></div> -->
+		</section>
+		
+		<div class="buttonsContainer"></div>
+
+		<div class="buttonInfoContainer"></div>
+
+		<footer>
+			<p>Harry 2017</p>
+		</footer>
+
+	</div>  <!-- end of wrapper -->
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/teleport-autocomplete.min.js"></script>
+	<script src="js/script.js"></script>
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlFWzrxiFp4ypVkUnSILFWFIx32K9Tplg">
+    </script>
+
+</body>
+</html>
+  
