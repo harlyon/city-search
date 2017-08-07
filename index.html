@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>City Search</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/teleport-autocomplete.min.css">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<script src="https://use.fontawesome.com/20d3a6ef4d.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	<meta property="og:locale" content="en_CA" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="City Search" />
+	<meta property="og:image" content="http://natalieb.io/city-search/images/heroImage.jpg" />
+	<meta property="og:description" content="Look Up City Information" />
+	<meta property="og:url" content="http://natalieb.io/city-search/" />
+	<meta property="og:site_name" content="City Search" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		@font-face {
+			font-family: 'Front Man';
+			src: url(fonts/lj-design-studios_the-frontman/The-Frontman.ttf);
+		}
+	</style>
+
+</head>
+<body>
+	
+	<div class="wrapper">
+		<div class="headerContainer">
+			<h1>City Search</h1>
+			<div class="navContainer">
+				<div class="LHS">
+					<section class="intro">
+						<p>Get the scoop on a city of your choosing.</p>
+					</section>
+					<form>
+							<input type="text" class='city-input tp-ac__input' placeholder="City, Province, Country">
+							<i class="fa fa-search search-icon" aria-hidden="true"></i>
+					</form>
+				</div>
+				<div class="RHS">
+					<a href="http://twitter.com/home?status=Going%20to%20move%2C%20travel%2C%20or%20work%20abroad?%20Use%20City%20Search%20https://goo.gl/15kcq5%20made%20by%20@Natalie_N_B%20using%20@TeleportInc%20API%2C%20@GoogleMapsAPI" target="_blank">
+						<i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//natalieb.io/city-search"  target="_blank">
+						<i class="fa fa-facebook" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</div>
+		<section class="summaryWithMap">
+			<div class="summary"></div>
+			<!-- <div id="map"></div> -->
+		</section>
+		
+		<div class="buttonsContainer"></div>
+
+		<div class="buttonInfoContainer"></div>
+
+		<footer>
+			<p>2017</p>
+		</footer>
+
+	</div>  <!-- end of wrapper -->
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/teleport-autocomplete.min.js"></script>
+	<script src="js/script.js"></script>
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlFWzrxiFp4ypVkUnSILFWFIx32K9Tplg">
+    </script>
+
+</body>
+</html>
+  
